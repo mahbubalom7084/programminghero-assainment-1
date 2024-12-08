@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 700;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 1rem 2rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* img{
+      max-width: 100%;
+  } */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: auto 50px;
+  }
+  
+  .nav-item ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .btn-btn {
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    background-color: #D8FB78;
+  }
+  
+  .container {
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    padding: 50px auto;
+    margin: 50px;
+  }
+  
+  .hero {
+    margin: 50px 10px;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    width: 550px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    width: 650px;
+  }
+  
+  .hero-img {
+    /* max-width: 1200px; */
+    border-radius: 22px;
+    padding: 20px;
+
+  }
+  
+  .hero-btn {
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    background: #D8FB78;
+  }
+  
+  .product {
+    align-items: center;
+  }
+  
+  .slot {
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  .slot h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .slot p {
+    text-align: center;
+  }
+  
+  .products-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+  }
+  .heart-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .heart-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 5px;
+   
+  }
+  
+  .card-1 {
+    border: 1rem solid white;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .card-2 {
+    border: 1rem solid white;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .card-3 {
+    border: 1rem solid white;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .card-1,
+  .card-2,
+  .card-3 img {
+    align-items: center;
+    justify-content: center;
+    background: white;
+  }
+  
+  .card-1,
+  .card-2,
+  .card-3 {
+    align-items: center;
+    justify-content: center;
+    h3 {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .card-btn-btn {
+      display: block;
+      padding: 0.6rem 5.7rem;
+      border-radius: 20px;
+      font-weight: 700;
+      border: 1px solid black;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      background: #D8FB78;
+    }
+    .add-btn {
+      display: block;
+      padding: 0.3rem 2rem;
+      border-radius: 20px;
+      font-weight: 700;
+      border: none;
+      background: #ffffff;
+    }
+  }
+  
+  footer {
+    background-color: #fff;
+  }
+  
+  .last h2,
+  .ul
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .last ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+  }
+
+  .social-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px;
+  }
+  .fa-facebook{
+    color: #1877F2;
+  }
+  .fa-twitter{
+    color:#1DA1F2    ;
+  }
+  .fa-linkedin{
+    color: #0077B5    ;
+  }
+  .fa-youtube{
+    color: #E60023    ;
+  }
+
+  
+  .contact{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 5rem;
+      margin-bottom: 50px;
+  }
+  
+  .contact input{
+      padding: 10px;
+      border-radius: 22px;
+      border: 1px solid #D8FB78;
+  }
